@@ -1,3 +1,38 @@
-body {
-    background-color: cornflowerblue;
+/*body {
+
+    background-color: rgb(145, 218, 252);altera cor de fundo
+    color:black;//altera cor do texto
 }
+table, tr, td, th {
+    background-color: dimgray;
+    border: 1px solid black;
+    
+    border-color:brown;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+th {
+    background-color: antiquewhite;
+    color: coral;
+}*/
+table {
+    width: 50%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #c0b0f8}
+  
+  tr:hover {
+    background-color: #9c8ddd;
+    color: aliceblue;
+    font-size: 20px;
+  }
